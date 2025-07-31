@@ -46,7 +46,7 @@ nav {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  gap: 16px;
+  gap: 20px;
   padding: 16px;
 }
 nav a {

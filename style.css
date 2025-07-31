@@ -1,0 +1,58 @@
+/* Prompt 1 – Center Hero Section Using Flexbox*/
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 300px;
+  background-color: #f8f8f8;
+}
+/*Prompt 2 – Smooth Button Hover Animation*/
+button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+/* Prompt 3 – Responsive Product Grid */
+.products {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 16px;
+  padding: 16px;
+}
+.product-card {
+  border: 1px solid #eee;
+  border-radius: 5px;
+  padding: 16px;
+  text-align: center;
+}
+/* Prompt 4 – Modern Font Pair from Google Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+/* Prompt 5 – Responsive Nav (Basic)*/
+nav {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 16px;
+  padding: 16px;
+}
+nav a {
+  text-decoration: none;
+  color: #007bff;
+}
+nav a:hover {
+  text-decoration: underline;
+}
